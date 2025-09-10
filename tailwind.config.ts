@@ -47,6 +47,22 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        game: {
+          bg: "hsl(var(--game-bg))",
+          health: {
+            full: "hsl(var(--health-full))",
+            medium: "hsl(var(--health-medium))",
+            low: "hsl(var(--health-low))",
+          },
+          target: {
+            light: "hsl(var(--target-light))",
+            dark: "hsl(var(--target-dark))",
+          },
+          bullet: "hsl(var(--bullet))",
+          player: {
+            glow: "hsl(var(--player-glow))",
+          },
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
